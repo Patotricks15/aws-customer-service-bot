@@ -1,0 +1,67 @@
+<mxfile host="Drawpyo" modified="2026-09-29T18:28:28" agent="Python 3.12, Drawpyo 0.23" version="21.6.5" type="device">
+  <diagram name="Page-1" id="132242459252576">
+    <mxGraphModel dx="2037" dy="830" grid="1" gridSize="10" guides="1" toolTips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="132242458483536" value="AWS Cloud" style="whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=#146EB4;dashed=0;html=1;verticalAlign=top;align=left;fontColor=#146EB4;fontSize=12;spacingLeft=6;spacingTop=4;" vertex="1" parent="1">
+  <mxGeometry x="40" y="40" width="900" height="560" as="geometry" />
+</mxCell>
+        <mxCell id="132242459720112" value="End users" style="whiteSpace=wrap;rounded=0;fillColor=#232F3E;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+  <mxGeometry x="40" y="300" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456665776" value="Web application" style="whiteSpace=wrap;rounded=0;fillColor=#232F3E;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+  <mxGeometry x="200" y="300" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456666592" value="Access AI models" style="whiteSpace=wrap;rounded=0;fillColor=#01A88D;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.machine_learning;" vertex="1" parent="1">
+  <mxGeometry x="380" y="300" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456667456" value="Foundation model" style="whiteSpace=wrap;rounded=0;fillColor=#01A88D;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.machine_learning;" vertex="1" parent="1">
+  <mxGeometry x="380" y="460" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456668272" value="Perform actions" style="whiteSpace=wrap;rounded=0;fillColor=#ED7100;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+  <mxGeometry x="380" y="100" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456669136" value="Action groups" style="whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=#146EB4;dashed=0;html=1;verticalAlign=top;align=left;fontColor=#146EB4;fontSize=12;spacingLeft=6;spacingTop=4;" vertex="1" parent="1">
+  <mxGeometry x="540" y="80" width="240" height="460" as="geometry" />
+</mxCell>
+        <mxCell id="132242456669904" value="Data storage&#xa;(OpenAPI schema)" style="whiteSpace=wrap;rounded=0;fillColor=#7AA116;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bucket;" vertex="1" parent="1">
+  <mxGeometry x="590" y="130" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456670528" value="Place order&#xa;Check inventory&#xa;Check customer&#xa;details and traits" style="whiteSpace=wrap;rounded=0;fillColor=#ED7100;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
+  <mxGeometry x="590" y="380" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456671392" value="Access&#xa;permissions" style="whiteSpace=wrap;rounded=0;fillColor=#DD344C;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management_iam;" vertex="1" parent="1">
+  <mxGeometry x="840" y="130" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456672208" value="Store database&#xa;password" style="whiteSpace=wrap;rounded=0;fillColor=#DD344C;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;" vertex="1" parent="1">
+  <mxGeometry x="980" y="130" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456673072" value="Customer&#xa;database" style="whiteSpace=wrap;rounded=0;fillColor=#C925D1;strokeColor=none;sketch=0;dashed=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+  <mxGeometry x="980" y="380" width="64" height="64" as="geometry" />
+</mxCell>
+        <mxCell id="132242456673936" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=block;endArrow=block;startFill=0;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242459720112" target="132242456665776" value="Request / Response">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="132242456673888" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=block;endArrow=block;startFill=0;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242456665776" target="132242456666592" value="Request / Response">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="132242456500160" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=block;endArrow=block;startFill=0;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242456666592" target="132242456668272" value="Create alias">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="132242456669184" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=block;endArrow=block;startFill=0;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242456666592" target="132242456667456">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="132242456740400" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=none;endArrow=block;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242456668272" target="132242456670528" value="Invoke / Response">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="132242456740544" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=none;endArrow=block;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242456670528" target="132242456669904" value="Load database">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+        <mxCell id="132242456740688" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;jettySize=auto;startArrow=block;endArrow=block;startFill=0;endFill=0;strokeColor=#545B64;" edge="1" parent="1" source="132242456670528" target="132242456673072" value="Request data / Response">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

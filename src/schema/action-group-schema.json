@@ -1,0 +1,112 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Customer Service Actions",
+    "version": "1.0.0",
+    "description": "Action group exposed to the Bedrock agent for order placement, inventory checks, and customer lookups."
+  },
+  "paths": {
+    "/place-order": {
+      "post": {
+        "operationId": "placeOrder",
+        "summary": "Place an order for a customer.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "customerId": { "type": "string", "description": "Unique identifier of the customer." },
+                  "productId": { "type": "string", "description": "Unique identifier of the product." },
+                  "quantity": { "type": "integer", "description": "Number of units to order." }
+                },
+                "required": ["customerId", "productId", "quantity"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Order confirmation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "orderId": { "type": "string" },
+                    "status": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/check-inventory": {
+      "get": {
+        "operationId": "checkInventory",
+        "summary": "Check available inventory for a product.",
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Unique identifier of the product."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Inventory level for the product.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "productId": { "type": "string" },
+                    "quantityAvailable": { "type": "integer" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/check-customer-details": {
+      "get": {
+        "operationId": "checkCustomerDetails",
+        "summary": "Look up a customer's profile and loyalty traits.",
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Unique identifier of the customer."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Customer profile.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "customerId": { "type": "string" },
+                    "name": { "type": "string" },
+                    "tier": { "type": "string" },
+                    "email": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
